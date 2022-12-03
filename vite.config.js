@@ -2,6 +2,8 @@ import path from 'path';
 import { defineConfig } from 'vite';
 import dts from 'vite-plugin-dts';
 
+const ANALYZE_BUNDLE = false;
+
 export default defineConfig({
     plugins: [dts({})],
     build: {
